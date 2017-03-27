@@ -14,6 +14,7 @@
 		7751AB8B1E8979740032189A /* CoreDataP1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7751AB891E8979740032189A /* CoreDataP1.xcdatamodeld */; };
 		7751AB8D1E8979740032189A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7751AB8C1E8979740032189A /* Assets.xcassets */; };
 		7751AB901E8979740032189A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7751AB8E1E8979740032189A /* LaunchScreen.storyboard */; };
+		7751AB9C1E897D210032189A /* Students+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7751AB9A1E897D210032189A /* Students+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,12 @@
 		7751AB8C1E8979740032189A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7751AB8F1E8979740032189A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7751AB911E8979740032189A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7751AB971E897D210032189A /* Students+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Students+CoreDataClass.h"; sourceTree = "<group>"; };
+		7751AB981E897D210032189A /* Students+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Students+CoreDataClass.m"; sourceTree = "<group>"; };
+		7751AB991E897D210032189A /* Students+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Students+CoreDataProperties.h"; path = "CoreDataP1/Students+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7751AB9A1E897D210032189A /* Students+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Students+CoreDataProperties.m"; path = "CoreDataP1/Students+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7751AB9D1E897E860032189A /* Students+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Students+Add.h"; sourceTree = "<group>"; };
+		7751AB9E1E897E860032189A /* Students+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Students+Add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,10 @@
 		7751AB711E8979740032189A = {
 			isa = PBXGroup;
 			children = (
+				7751AB991E897D210032189A /* Students+CoreDataProperties.h */,
+				7751AB9A1E897D210032189A /* Students+CoreDataProperties.m */,
+				7751AB9D1E897E860032189A /* Students+Add.h */,
+				7751AB9E1E897E860032189A /* Students+Add.m */,
 				7751AB7C1E8979740032189A /* CoreDataP1 */,
 				7751AB7B1E8979740032189A /* Products */,
 			);
@@ -77,6 +88,8 @@
 		7751AB7D1E8979740032189A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7751AB971E897D210032189A /* Students+CoreDataClass.h */,
+				7751AB981E897D210032189A /* Students+CoreDataClass.m */,
 				7751AB7E1E8979740032189A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -154,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7751AB851E8979740032189A /* ViewController.m in Sources */,
+				7751AB9C1E897D210032189A /* Students+CoreDataProperties.m in Sources */,
 				7751AB821E8979740032189A /* AppDelegate.m in Sources */,
 				7751AB7F1E8979740032189A /* main.m in Sources */,
 				7751AB8B1E8979740032189A /* CoreDataP1.xcdatamodeld in Sources */,
