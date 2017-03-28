@@ -5,6 +5,9 @@
 //  Created by Pierre Binon on 2017-03-27.
 //  Copyright © 2017 Pierre Binon. All rights reserved.
 //
+//Part I: https://www.youtube.com/watch?v=EGO9XBFrZE0
+//Part II: https://www.youtube.com/watch?v=p_INW9noMDI
+
 
 #import "ViewController.h"
 #import "Students+CoreDataProperties.h"
@@ -34,6 +37,12 @@
     
     //The .description below makes every element in the array a NSString
     self.outputTextView.text = [Students addStudentInfoFromDictionary: studentInfo].description;
+}
+
+
+- (IBAction)searchDatabase:(UIButton *)sender {
+    
+    self.outputTextView.text = [Students searchStudentsByName: self.nameTextField.text lastName: self.lastnameTextField.text].description;
 }
 
 @end

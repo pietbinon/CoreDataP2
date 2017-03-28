@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *name;
 @property (nullable, nonatomic, copy) NSString *lastName;
 
++ (NSArray *) searchStudentsByName: (NSString *) name lastName: (NSString *) lastName;
+
 @end
 
 NS_ASSUME_NONNULL_END

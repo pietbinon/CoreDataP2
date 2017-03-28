@@ -71,11 +71,19 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ut-eO-cQr">
-                                <rect key="frame" x="108" y="181" width="158" height="30"/>
+                                <rect key="frame" x="16" y="178" width="158" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add To Database"/>
                                 <connections>
                                     <action selector="addToDatabase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AHO-k5-yqM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjn-Jg-Pwz">
+                                <rect key="frame" x="274" y="178" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="searchDatabase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbB-Ar-4Lg"/>
                                 </connections>
                             </button>
                         </subviews>
